@@ -1,5 +1,5 @@
 {
-    "name": "hyperf/utils",
+    "name": "hyperf-ext/utils",
     "description": "Hyperf echosystem utils",
     "type": "library",
     "license": "MIT",
