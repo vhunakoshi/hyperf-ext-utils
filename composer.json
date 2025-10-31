@@ -1,0 +1,27 @@
+{
+    "name": "hyperf/utils",
+    "description": "Hyperf echosystem utils",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Vhunakoshi\\Utils\\": "src/"
+        },
+        "files": [
+            "src/Functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Taufiq Vhunakoshi",
+            "email": "taufiqvhunakoshi@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "hyperf": {
+            "config": "Vhunakoshi\\Utils\\ConfigProvider"
+        }
+    }
+}
